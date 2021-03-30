@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
-public class Accessors {
+public class TigerCenterSearch {
     Formatters formatters = new Formatters();
     public String accessTigerCenter(String classname) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","E:\\Java\\Selenium\\chromedriver.exe");
